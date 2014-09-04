@@ -17,9 +17,10 @@ h2 {
   margin: 0 0 20px 0;
 }
 
-p {
+p, a {
   color: black;
   align: left;
+  text-decoration: none;
 }
 
 #page {
@@ -34,6 +35,7 @@ p {
   background-image: url(images/header-background.png);
   background-position: 0px -10px;
   height: 56px;
+  overflow: hidden;
 }
 
 #logo {
@@ -55,14 +57,30 @@ p {
   font-weight: bold;
 }
 
+#memory_type {
+  height: 56px;
+  float: right;
+  color: white;
+  margin: 7px 10px;
+  font-weight: bold;
+}
+
+#memory_type img {
+  vertical-align: middle;
+}
+
+#memory_type_text {
+//  height: 100%;
+}
+
 #language_icons {
   float: right;
   margin: 17px 10px;
 }
 
 #playground {
- width: 990px;
- 
+  overflow: hidden;
+  clear: both;
 }
 
 #info {
@@ -74,9 +92,12 @@ p {
   background-color: beige;
   border:1px solid white;
   float: left;
+  margin: 0 0 10px 0;
 }
 #card {
-   border:1px solid white;
+  margin: 0;
+  border: 1px solid white;
+  float: left;
 }
 
 #right_column {
@@ -90,4 +111,9 @@ p {
 
 #left {
   color: black;
+}
+
+#footer {
+  clear: both;
+  margin: 40px 0 0 0;
 }
