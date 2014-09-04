@@ -9,6 +9,7 @@ Map userInterface = {
       "low_difficulty_text": "low",
       "middle_difficulty_text": "middle",
       "high_difficulty_text": "high",
+      "memory_type_text": "Type",
     },
     "czech": {
       "title_text": "Pexeso",
@@ -20,6 +21,7 @@ Map userInterface = {
       "low_difficulty_text": "nízká",
       "middle_difficulty_text": "střední",
       "high_difficulty_text": "vysoká",
+      "memory_type_text": "Typ",
     },
     "german": {
       "title_text": "Memory",
@@ -31,6 +33,7 @@ Map userInterface = {
       "low_difficulty_text": "niedrige",
       "middle_difficulty_text": "mittlere",
       "high_difficulty_text": "hohe",
+      "memory_type_text": "Typ",
     },
   };
 

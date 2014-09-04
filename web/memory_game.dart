@@ -21,6 +21,7 @@ void translate() {
   querySelector('#low_difficulty_text').text = userInterface[language]["low_difficulty_text"];
   querySelector('#middle_difficulty_text').text = userInterface[language]["middle_difficulty_text"];
   querySelector('#high_difficulty_text').text = userInterface[language]["high_difficulty_text"];
+  querySelector('#memory_type_text').text = userInterface[language]["memory_type_text"];
 }
 
 /// Show the clicked card and its description.
