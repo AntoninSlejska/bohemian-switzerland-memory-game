@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <script async type="application/dart" src="memory_game.dart"></script>
+    <script async src="packages/browser/dart.js"></script>
+    <link rel="stylesheet" href="memory_game.css">
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        <div id="logo"><a href="http://www.ceskesvycarsko.cz"><img alt="České Švýcarsko" src="images/ceskesvycarsko-logo.png"></a></div>
+        <div id="title">
+          <h1 id="title_text">Memory Game</h1>
+        </div>
+        <div id="language_icons">
+          <a href="#"><img id="language_cz" class="language-icon" src="images/cz.png" width="26" height="19" alt="Čeština" title="Čeština"></a>
+          <a href="#"><img id="language_de" class="language-icon" src="images/de.png" width="26" height="19" alt="Deutsch" title="Deutsch"></a>
+          <a href="#"><img id="language_en" class="language-icon" src="images/en.png" width="26" height="19" alt="English" title="English"></a>
+        </div>
+        <div id="difficulty">
+          <span id="difficulty_text">Difficulty</span>
+          <input type="radio" name="difficulty" id="low_difficulty" value="low" checked><span id="low_difficulty_text">low</span>
+          <input type="radio" name="difficulty" id="middle_difficulty" value="middle"><span id="middle_difficulty_text">middle</span>
+          <input type="radio" name="difficulty" id="high_difficulty" value="high"><span id="high_difficulty_text">high</span>
+        </div>
+      </div>
+      <div id="playground">
+        <div id="info">
+          <p id="info_text">Start playing by clicking on a card.</p>
+        </div>
+        <div id="card_box"></div>
+        <div id="right_column">
+          <h2 id="strikes"><span id="strike_text">Strikes</span>: <span id="num_strikes"></span></h2>
+          <h2 id="left"><span  id="left_text">Cards left</span>: <span id="num_left"></span></h2>
+          <button id="new_game_button">New Game</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

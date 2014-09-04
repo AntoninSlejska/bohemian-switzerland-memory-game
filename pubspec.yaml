@@ -1,0 +1,4 @@
+name: Memory_Game
+description: A sample web application
+dependencies:
+  browser: any
