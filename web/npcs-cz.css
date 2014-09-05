@@ -1,0 +1,123 @@
+body {
+  font-family: Arial,Verdana,Geneva,"DejaVu Sans",sans-serif;
+  font-size: 14px;
+  background-color: #7b9e6e;
+  font-weight: normal;
+  margin: 0 0;
+}
+
+h1 {
+  color: black;
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+p, a {
+  color: black;
+  align: left;
+  text-decoration: none;
+}
+
+#page {
+  background-color: white;
+  width: 990px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#header {
+  background-image: url(images/header-background-grey.png);
+  background-repeat: repeat-x;
+  background-position: 0px -10px;
+  height: 100px;
+  overflow: hidden;
+}
+
+#logo {
+  background-image: url(images/npcs-logo.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 120px;
+  height: 120px;
+  margin: 5px 0 0 10px;
+}
+
+#title {
+  float: left;
+  margin: 40px 0 0 10px;
+}
+
+#difficulty {
+  height: 84px;
+  float: right;
+  color: black;
+  margin: 47px 10px 16px 10px;
+  font-weight: bold;
+}
+
+#memory_type {
+  height: 84px;
+  float: right;
+  color: black;
+  margin: 25px 10px 7px 0;
+  font-weight: bold;
+}
+
+#memory_type img {
+  vertical-align: text-bottom;;
+}
+
+#memory_type_text {
+//  height: 100%;
+}
+
+#language_icons {
+  float: right;
+  margin: 47px 10px 17px 10px;
+}
+
+#playground {
+  overflow: hidden;
+  clear: both;
+}
+
+#info {
+}
+
+#card_box {
+  width: 408px;
+  height: 408px;
+  background-color: beige;
+  border:1px solid white;
+  float: left;
+  margin: 0 0 10px 0;
+}
+#card {
+  margin: 0;
+  border: 1px solid white;
+  float: left;
+}
+
+#right_column {
+  float: left;
+  margin: 0 25px;
+}
+
+#strikes {
+  color: red;
+}
+
+#left {
+  color: black;
+}
+
+#footer {
+  clear: both;
+  margin: 40px 0 0 0;
+}

@@ -1,0 +1,121 @@
+body {
+  background: #e2e6e9 url(images/cs-background.jpg) top center no-repeat;
+  font-family: Arial,Verdana,Geneva,"DejaVu Sans",sans-serif;
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+  margin: 0 0;
+}
+
+h1 {
+  color: white;
+  margin: 11px 0;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+
+p, a {
+  color: black;
+  align: left;
+  text-decoration: none;
+}
+
+#page {
+  width: 990px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#header {
+  background-image: url(images/header-background.png);
+  background-position: 0px -10px;
+  height: 56px;
+  overflow: hidden;
+}
+
+#logo {
+  background-image: url(images/ceskesvycarsko-logo.png);
+  background-repeat: no-repeat;
+  float: left;
+  width: 173px;
+  height: 56px;
+  margin: 7px 10px;
+}
+
+#title {
+  float: left;
+  margin: 0 10px;
+}
+
+#difficulty {
+  float: right;
+  color: white;
+  margin: 16px 10px;
+  font-weight: bold;
+}
+
+#memory_type {
+  height: 56px;
+  float: right;
+  color: white;
+  margin: 7px 10px;
+  font-weight: bold;
+}
+
+#memory_type img {
+  vertical-align: middle;
+}
+
+#memory_type_text {
+//  height: 100%;
+}
+
+#language_icons {
+  float: right;
+  margin: 17px 10px;
+}
+
+#playground {
+  overflow: hidden;
+  clear: both;
+}
+
+#info {
+}
+
+#card_box {
+  width: 408px;
+  height: 408px;
+  background-color: beige;
+  border:1px solid white;
+  float: left;
+  margin: 0 0 10px 0;
+}
+#card {
+  margin: 0;
+  border: 1px solid white;
+  float: left;
+}
+
+#right_column {
+  float: left;
+  margin: 0 25px;
+}
+
+#strikes {
+  color: red;
+}
+
+#left {
+  color: black;
+}
+
+#footer {
+  clear: both;
+  margin: 40px 0 0 0;
+}
