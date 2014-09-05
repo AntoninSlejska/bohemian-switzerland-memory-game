@@ -86,6 +86,12 @@ void clickEvents(MouseEvent event) {
         setCards();
         reset();
         break;
+      case "memory_type_animals":
+        memoryType = "animals";
+        cardBack = "images/$memoryType/00.jpg";
+        setCards();
+        reset();
+        break;
       default:
         break;
     }
@@ -177,5 +183,6 @@ void main() {
   querySelector("#high_difficulty").onClick.listen(clickEvents);
   querySelector("#memory_type_destinations").onClick.listen(clickEvents);
   querySelector("#memory_type_drawings").onClick.listen(clickEvents);
+  querySelector("#memory_type_animals").onClick.listen(clickEvents);
   reset();
 }
