@@ -92,6 +92,12 @@ void clickEvents(MouseEvent event) {
         setCards();
         reset();
         break;
+      case "memory_type_birds":
+        memoryType = "birds";
+        cardBack = "images/$memoryType/00.jpg";
+        setCards();
+        reset();
+        break;
       default:
         break;
     }
@@ -182,7 +188,8 @@ void main() {
   querySelector("#middle_difficulty").onClick.listen(clickEvents);
   querySelector("#high_difficulty").onClick.listen(clickEvents);
   querySelector("#memory_type_destinations").onClick.listen(clickEvents);
-  querySelector("#memory_type_drawings").onClick.listen(clickEvents);
+//  querySelector("#memory_type_drawings").onClick.listen(clickEvents);
   querySelector("#memory_type_animals").onClick.listen(clickEvents);
+  querySelector("#memory_type_birds").onClick.listen(clickEvents);
   reset();
 }
